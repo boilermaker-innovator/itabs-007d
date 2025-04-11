@@ -497,34 +497,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <html lang="en">
-<head>
-    <!-- Previous head content goes here -->
-</head>
-<body>
-    <div class="app-container">
-        <!-- Form Section from Part 1 continued -->
-        <div class="form-section">
-            <h1>Donation Form Builder</h1>
-            
-            <form id="donationForm">
-                <div>
-                    <h2>Main Settings</h2>
-                    <div class="form-group">
-                        <label for="popupTitle">Popup Title</label>
-                        <input type="text" id="popupTitle" value="Your $5 makes a difference!">
-                    </div>
-                </div>
-                
-                <div>
-                    <h2>Donation Options</h2>
-                    
-                    <!-- Option 1 and 2 from Part 1 go here -->
-                    
                     <!-- Option 3 -->
                     <div class="option-container">
                         <div class="option-title">Option 3</div>
@@ -807,6 +779,8 @@
 
         // Switch between preview views
         function switchPreviewView(view) {
+            console.log("Switching to view:", view);
+            
             // Hide all views
             document.getElementById('previewMain').style.display = 'none';
             document.getElementById('previewFollowup1').style.display = 'none';
@@ -838,6 +812,8 @@
         
         // Generate code function
         function generateCode() {
+            console.log("Generating code...");
+            
             // Get values from form
             const popupTitle = document.getElementById('popupTitle').value;
             
@@ -1106,8 +1082,10 @@
             
             // Output code
             document.getElementById('codeOutput').value = html;
+            console.log("Code generation complete!");
         }
     </script>
-
 </body>
 </html>
+
+                    
