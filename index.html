@@ -577,261 +577,276 @@
                 <button type="submit" class="generate-button">Generate Code</button>
             </form>
         </div>
-        
         <!-- Preview Section -->
-        <div class="preview-section">
-            <div class="preview-container">
-                <div class="preview-header">
-                    <div class="preview-title">Live Preview</div>
-                    <div class="preview-tabs">
-                        <div class="preview-tab active" data-view="main">Main</div>
-                        <div class="preview-tab" data-view="followup1">Followup 1</div>
-                        <div class="preview-tab" data-view="followup2">Followup 2</div>
-                        <div class="preview-tab" data-view="followup3">Followup 3</div>
-                        <div class="preview-tab" data-view="followup4">Followup 4</div>
-                    </div>
-                </div>
-                
-                <div class="preview-content">
-                    <!-- Main Popup -->
-                    <div class="donation-popup" id="previewMain">
-                        <div class="popup-title" id="previewPopupTitle">Your $5 makes a difference!</div>
-                        
-                        <div class="donation-option" data-option="1">
-                            <div class="donation-emoji" id="previewOption1Emoji">💧</div>
-                            <div class="donation-content">
-                                <div class="donation-title" id="previewOption1Title">Dig the Well</div>
-                                <div class="donation-description" id="previewOption1Description">$5 funds 1 inch of well drilling</div>
-                            </div>
-                        </div>
-                        
-                        <div class="donation-option" data-option="2">
-                            <div class="donation-emoji" id="previewOption2Emoji">🚜</div>
-                            <div class="donation-content">
-                                <div class="donation-title" id="previewOption2Title">Fuel the Tractors</div>
-                                <div class="donation-description" id="previewOption2Description">$5 powers 1 hour of tractor operation</div>
-                            </div>
-                        </div>
-                        
-                        <div class="donation-option" data-option="3">
-                            <div class="donation-emoji" id="previewOption3Emoji">👨‍🌾</div>
-                            <div class="donation-content">
-                                <div class="donation-title" id="previewOption3Title">Train Farmers</div>
-                                <div class="donation-description" id="previewOption3Description">$5 contributes to training sessions</div>
-                            </div>
-                        </div>
-                        
-                        <div class="donation-option" data-option="4">
-                            <div class="donation-emoji" id="previewOption4Emoji">🙏</div>
-                            <div class="donation-content">
-                                <div class="donation-title" id="previewOption4Title">General Support</div>
-                                <div class="donation-description" id="previewOption4Description">$5 helps our mission in Tanzania</div>
-                            </div>
-                        </div>
-                        
-                        <div class="popup-close">Close</div>
-                    </div>
-                    
-                    <!-- Follow-up Cards -->
-                    <div class="followup-card" id="previewFollowup1">
-                        <div class="followup-header">
-                            <div class="followup-emoji" id="previewFollowup1Emoji">💧</div>
-                            <div class="followup-title" id="previewFollowup1Title">Clean Water Changes Lives</div>
-                        </div>
-                        <div class="followup-content" id="previewFollowup1Content">Clean water is essential for health, education, and prosperity. Your contribution helps us dig wells that provide clean water to communities in Tanzania.</div>
-                        <button class="donate-button" id="previewFollowup1Button">Donate $5 for Well Drilling</button>
-                        <div class="back-link">Back to options</div>
-                    </div>
-                    
-                    <div class="followup-card" id="previewFollowup2">
-                        <div class="followup-header">
-                            <div class="followup-emoji" id="previewFollowup2Emoji">🚜</div>
-                            <div class="followup-title" id="previewFollowup2Title">Modern Farming Equipment</div>
-                        </div>
-                        <div class="followup-content" id="previewFollowup2Content">Modern farming equipment helps communities produce more food with less manual labor. Your contribution helps power tractors that increase agricultural productivity.</div>
-                        <button class="donate-button" id="previewFollowup2Button">Donate $5 for Tractors</button>
-                        <div class="back-link">Back to options</div>
-                    </div>
-                    
-                    <div class="followup-card" id="previewFollowup3">
-                        <div class="followup-header">
-                            <div class="followup-emoji" id="previewFollowup3Emoji">👨‍🌾</div>
-                            <div class="followup-title" id="previewFollowup3Title">Knowledge and Skills</div>
-                        </div>
-                        <div class="followup-content" id="previewFollowup3Content">Knowledge and skills are crucial for sustainable agriculture. Your contribution helps provide training to local farmers on modern farming techniques.</div>
-                        <button class="donate-button" id="previewFollowup3Button">Donate $5 for Farmer Training</button>
-                        <div class="back-link">Back to options</div>
-                    </div>
-                    
-                    <div class="followup-card" id="previewFollowup4">
-                        <div class="followup-header">
-                            <div class="followup-emoji" id="previewFollowup4Emoji">🙏</div>
-                            <div class="followup-title" id="previewFollowup4Title">Support Our Mission</div>
-                        </div>
-                        <div class="followup-content" id="previewFollowup4Content">Our mission in Tanzania requires flexibility to address the most urgent needs. Your contribution to general support helps us allocate resources where they're needed most.</div>
-                        <button class="donate-button" id="previewFollowup4Button">Donate $5 for General Support</button>
-                        <div class="back-link">Back to options</div>
-                    </div>
-                </div>
+<div class="preview-section">
+    <div class="preview-container">
+        <div class="preview-header">
+            <div class="preview-title">Live Preview</div>
+            <div class="preview-tabs">
+                <div class="preview-tab active" data-view="main">Main</div>
+                <div class="preview-tab" data-view="followup1">Followup 1</div>
+                <div class="preview-tab" data-view="followup2">Followup 2</div>
+                <div class="preview-tab" data-view="followup3">Followup 3</div>
+                <div class="preview-tab" data-view="followup4">Followup 4</div>
             </div>
         </div>
         
-        <!-- Code Output Section -->
-        <div class="code-section">
-            <h2>Generated Code</h2>
-            <div class="code-container">
-                <textarea id="codeOutput" class="code-textarea" readonly></textarea>
-                <button id="copyButton" class="copy-button">Copy Code</button>
+        <div class="preview-content">
+            <!-- Main Popup -->
+            <div class="donation-popup" id="previewMain">
+                <div class="popup-title" id="previewPopupTitle">Your $5 makes a difference!</div>
+                
+                <div class="donation-option" data-option="1">
+                    <div class="donation-emoji" id="previewOption1Emoji">💧</div>
+                    <div class="donation-content">
+                        <div class="donation-title" id="previewOption1Title">Dig the Well</div>
+                        <div class="donation-description" id="previewOption1Description">$5 funds 1 inch of well drilling</div>
+                    </div>
+                </div>
+                
+                <div class="donation-option" data-option="2">
+                    <div class="donation-emoji" id="previewOption2Emoji">🚜</div>
+                    <div class="donation-content">
+                        <div class="donation-title" id="previewOption2Title">Fuel the Tractors</div>
+                        <div class="donation-description" id="previewOption2Description">$5 powers 1 hour of tractor operation</div>
+                    </div>
+                </div>
+                
+                <div class="donation-option" data-option="3">
+                    <div class="donation-emoji" id="previewOption3Emoji">👨‍🌾</div>
+                    <div class="donation-content">
+                        <div class="donation-title" id="previewOption3Title">Train Farmers</div>
+                        <div class="donation-description" id="previewOption3Description">$5 contributes to training sessions</div>
+                    </div>
+                </div>
+                
+                <div class="donation-option" data-option="4">
+                    <div class="donation-emoji" id="previewOption4Emoji">🙏</div>
+                    <div class="donation-content">
+                        <div class="donation-title" id="previewOption4Title">General Support</div>
+                        <div class="donation-description" id="previewOption4Description">$5 helps our mission in Tanzania</div>
+                    </div>
+                </div>
+                
+                <div class="popup-close">Close</div>
+            </div>
+            
+            <!-- Follow-up Cards -->
+            <div class="followup-card" id="previewFollowup1">
+                <div class="followup-header">
+                    <div class="followup-emoji" id="previewFollowup1Emoji">💧</div>
+                    <div class="followup-title" id="previewFollowup1Title">Clean Water Changes Lives</div>
+                </div>
+                <div class="followup-content" id="previewFollowup1Content">Clean water is essential for health, education, and prosperity. Your contribution helps us dig wells that provide clean water to communities in Tanzania.</div>
+                <button class="donate-button" id="previewFollowup1Button">Donate $5 for Well Drilling</button>
+                <div class="back-link">Back to options</div>
+            </div>
+            
+            <div class="followup-card" id="previewFollowup2">
+                <div class="followup-header">
+                    <div class="followup-emoji" id="previewFollowup2Emoji">🚜</div>
+                    <div class="followup-title" id="previewFollowup2Title">Modern Farming Equipment</div>
+                </div>
+                <div class="followup-content" id="previewFollowup2Content">Modern farming equipment helps communities produce more food with less manual labor. Your contribution helps power tractors that increase agricultural productivity.</div>
+                <button class="donate-button" id="previewFollowup2Button">Donate $5 for Tractors</button>
+                <div class="back-link">Back to options</div>
+            </div>
+            
+            <div class="followup-card" id="previewFollowup3">
+                <div class="followup-header">
+                    <div class="followup-emoji" id="previewFollowup3Emoji">👨‍🌾</div>
+                    <div class="followup-title" id="previewFollowup3Title">Knowledge and Skills</div>
+                </div>
+                <div class="followup-content" id="previewFollowup3Content">Knowledge and skills are crucial for sustainable agriculture. Your contribution helps provide training to local farmers on modern farming techniques.</div>
+                <button class="donate-button" id="previewFollowup3Button">Donate $5 for Farmer Training</button>
+                <div class="back-link">Back to options</div>
+            </div>
+            
+            <div class="followup-card" id="previewFollowup4">
+                <div class="followup-header">
+                    <div class="followup-emoji" id="previewFollowup4Emoji">🙏</div>
+                    <div class="followup-title" id="previewFollowup4Title">Support Our Mission</div>
+                </div>
+                <div class="followup-content" id="previewFollowup4Content">Our mission in Tanzania requires flexibility to address the most urgent needs. Your contribution to general support helps us allocate resources where they're needed most.</div>
+                <button class="donate-button" id="previewFollowup4Button">Donate $5 for General Support</button>
+                <div class="back-link">Back to options</div>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Code Output Section -->
+<div class="code-section">
+    <h2>Generated Code</h2>
+    <div class="code-container">
+        <textarea id="codeOutput" class="code-textarea" readonly></textarea>
+        <button id="copyButton" class="copy-button">Copy Code</button>
+    </div>
+</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("DOM fully loaded");
     
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Show the main view initially
-            switchPreviewView('main');
-            
-            // Update preview with initial values
-            updatePreview();
-            
-            // Set up event listeners for all form inputs
-            document.querySelectorAll('input, textarea').forEach(function(input) {
-                input.addEventListener('input', updatePreview);
-            });
-            
-            // Preview tab switching
-            document.querySelectorAll('.preview-tab').forEach(function(tab) {
-                tab.addEventListener('click', function() {
-                    switchPreviewView(this.dataset.view);
-                });
-            });
-            
-            // Form submission handler
-            document.getElementById('donationForm').addEventListener('submit', function(e) {
-                e.preventDefault();
-                generateCode();
-            });
-            
-            // Copy button handler
-            document.getElementById('copyButton').addEventListener('click', function() {
-                const codeOutput = document.getElementById('codeOutput');
-                codeOutput.select();
-                document.execCommand('copy');
-                
-                // Change button text temporarily
-                const originalText = this.textContent;
-                this.textContent = 'Copied!';
-                setTimeout(() => {
-                    this.textContent = originalText;
-                }, 2000);
-            });
+    // Show the main view initially
+    switchPreviewView('main');
+    
+    // Update preview with initial values
+    updatePreview();
+    
+    // Set up event listeners for all form inputs
+    document.querySelectorAll('input, textarea').forEach(function(input) {
+        input.addEventListener('input', updatePreview);
+        console.log("Added input listener to:", input.id);
+    });
+    
+    // Preview tab switching
+    document.querySelectorAll('.preview-tab').forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            console.log("Tab clicked:", this.dataset.view);
+            switchPreviewView(this.dataset.view);
         });
-
-        // Update preview when form inputs change
-        function updatePreview() {
-            // Main popup
-            document.getElementById('previewPopupTitle').textContent = document.getElementById('popupTitle').value;
-            
-            // Option 1
-            document.getElementById('previewOption1Emoji').textContent = document.getElementById('option1Emoji').value;
-            document.getElementById('previewOption1Title').textContent = document.getElementById('option1Title').value;
-            document.getElementById('previewOption1Description').textContent = document.getElementById('option1Description').value;
-            
-            // Option 2
-            document.getElementById('previewOption2Emoji').textContent = document.getElementById('option2Emoji').value;
-            document.getElementById('previewOption2Title').textContent = document.getElementById('option2Title').value;
-            document.getElementById('previewOption2Description').textContent = document.getElementById('option2Description').value;
-            
-            // Option 3
-            document.getElementById('previewOption3Emoji').textContent = document.getElementById('option3Emoji').value;
-            document.getElementById('previewOption3Title').textContent = document.getElementById('option3Title').value;
-            document.getElementById('previewOption3Description').textContent = document.getElementById('option3Description').value;
-            
-            // Option 4
-            document.getElementById('previewOption4Emoji').textContent = document.getElementById('option4Emoji').value;
-            document.getElementById('previewOption4Title').textContent = document.getElementById('option4Title').value;
-            document.getElementById('previewOption4Description').textContent = document.getElementById('option4Description').value;
-            
-            // Followup 1
-            document.getElementById('previewFollowup1Emoji').textContent = document.getElementById('option1Emoji').value;
-            document.getElementById('previewFollowup1Title').textContent = document.getElementById('followup1Title').value;
-            document.getElementById('previewFollowup1Content').textContent = document.getElementById('followup1Content').value;
-            document.getElementById('previewFollowup1Button').textContent = document.getElementById('followup1ButtonText').value;
-            
-            // Followup 2
-            document.getElementById('previewFollowup2Emoji').textContent = document.getElementById('option2Emoji').value;
-            document.getElementById('previewFollowup2Title').textContent = document.getElementById('followup2Title').value;
-            document.getElementById('previewFollowup2Content').textContent = document.getElementById('followup2Content').value;
-            document.getElementById('previewFollowup2Button').textContent = document.getElementById('followup2ButtonText').value;
-            
-            // Followup 3
-            document.getElementById('previewFollowup3Emoji').textContent = document.getElementById('option3Emoji').value;
-            document.getElementById('previewFollowup3Title').textContent = document.getElementById('followup3Title').value;
-            document.getElementById('previewFollowup3Content').textContent = document.getElementById('followup3Content').value;
-            document.getElementById('previewFollowup3Button').textContent = document.getElementById('followup3ButtonText').value;
-            
-            // Followup 4
-            document.getElementById('previewFollowup4Emoji').textContent = document.getElementById('option4Emoji').value;
-            document.getElementById('previewFollowup4Title').textContent = document.getElementById('followup4Title').value;
-            document.getElementById('previewFollowup4Content').textContent = document.getElementById('followup4Content').value;
-            document.getElementById('previewFollowup4Button').textContent = document.getElementById('followup4ButtonText').value;
-        }
-
-        // Switch between preview views
-        function switchPreviewView(view) {
-            console.log("Switching to view:", view);
-            
-            // Hide all views
-            document.getElementById('previewMain').style.display = 'none';
-            document.getElementById('previewFollowup1').style.display = 'none';
-            document.getElementById('previewFollowup2').style.display = 'none';
-            document.getElementById('previewFollowup3').style.display = 'none';
-            document.getElementById('previewFollowup4').style.display = 'none';
-            
-            // Show selected view
-            if (view === 'main') {
-                document.getElementById('previewMain').style.display = 'block';
-            } else if (view === 'followup1') {
-                document.getElementById('previewFollowup1').style.display = 'block';
-            } else if (view === 'followup2') {
-                document.getElementById('previewFollowup2').style.display = 'block';
-            } else if (view === 'followup3') {
-                document.getElementById('previewFollowup3').style.display = 'block';
-            } else if (view === 'followup4') {
-                document.getElementById('previewFollowup4').style.display = 'block';
-            }
-            
-            // Update active tab
-            document.querySelectorAll('.preview-tab').forEach(function(tab) {
-                tab.classList.remove('active');
-                if (tab.dataset.view === view) {
-                    tab.classList.add('active');
-                }
-            });
-        }
-        
-        // Generate code function
-        function generateCode() {
-            console.log("Generating code...");
-            
-            // Get values from form
-            const popupTitle = document.getElementById('popupTitle').value;
-            
-            // Get donation options
-            const options = [];
-            for (let i = 1; i <= 4; i++) {
-                options.push({
-                    emoji: document.getElementById(`option${i}Emoji`).value,
-                    title: document.getElementById(`option${i}Title`).value,
-                    description: document.getElementById(`option${i}Description`).value,
-                    followupTitle: document.getElementById(`followup${i}Title`).value,
-                    followupContent: document.getElementById(`followup${i}Content`).value,
-                    followupButtonText: document.getElementById(`followup${i}ButtonText`).value
+    });
+    
+    // Form submission handler
+    document.getElementById('donationForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        console.log("Form submitted, generating code...");
+        generateCode();
+    });
+    
+    // Copy button handler
+    document.getElementById('copyButton').addEventListener('click', function() {
+        const codeOutput = document.getElementById('codeOutput');
+        codeOutput.select();
+        try {
+            // Modern approach
+            navigator.clipboard.writeText(codeOutput.value)
+                .then(() => {
+                    console.log("Code copied to clipboard using Clipboard API");
+                    showCopiedMessage();
+                })
+                .catch(err => {
+                    console.error("Clipboard API failed:", err);
+                    // Fallback to execCommand
+                    document.execCommand('copy');
+                    console.log("Code copied to clipboard using execCommand");
+                    showCopiedMessage();
                 });
-            }
-            
-            // Generate HTML
-            const html = `<!-- Donation Widget HTML -->
+        } catch (err) {
+            console.error("Copy failed:", err);
+            alert("Failed to copy code. Please select and copy manually.");
+        }
+    });
+    
+    function showCopiedMessage() {
+        const copyButton = document.getElementById('copyButton');
+        const originalText = copyButton.textContent;
+        copyButton.textContent = 'Copied!';
+        setTimeout(() => {
+            copyButton.textContent = originalText;
+        }, 2000);
+    }
+});
+
+// Update preview when form inputs change
+function updatePreview() {
+    // Main popup
+    document.getElementById('previewPopupTitle').textContent = document.getElementById('popupTitle').value;
+    
+    // Option 1
+    document.getElementById('previewOption1Emoji').textContent = document.getElementById('option1Emoji').value;
+    document.getElementById('previewOption1Title').textContent = document.getElementById('option1Title').value;
+    document.getElementById('previewOption1Description').textContent = document.getElementById('option1Description').value;
+    document.getElementById('previewFollowup1Emoji').textContent = document.getElementById('option1Emoji').value;
+    document.getElementById('previewFollowup1Title').textContent = document.getElementById('followup1Title').value;
+    document.getElementById('previewFollowup1Content').textContent = document.getElementById('followup1Content').value;
+    document.getElementById('previewFollowup1Button').textContent = document.getElementById('followup1ButtonText').value;
+    
+    // Option 2
+    document.getElementById('previewOption2Emoji').textContent = document.getElementById('option2Emoji').value;
+    document.getElementById('previewOption2Title').textContent = document.getElementById('option2Title').value;
+    document.getElementById('previewOption2Description').textContent = document.getElementById('option2Description').value;
+    document.getElementById('previewFollowup2Emoji').textContent = document.getElementById('option2Emoji').value;
+    document.getElementById('previewFollowup2Title').textContent = document.getElementById('followup2Title').value;
+    document.getElementById('previewFollowup2Content').textContent = document.getElementById('followup2Content').value;
+    document.getElementById('previewFollowup2Button').textContent = document.getElementById('followup2ButtonText').value;
+    
+    // Option 3
+    document.getElementById('previewOption3Emoji').textContent = document.getElementById('option3Emoji').value;
+    document.getElementById('previewOption3Title').textContent = document.getElementById('option3Title').value;
+    document.getElementById('previewOption3Description').textContent = document.getElementById('option3Description').value;
+    document.getElementById('previewFollowup3Emoji').textContent = document.getElementById('option3Emoji').value;
+    document.getElementById('previewFollowup3Title').textContent = document.getElementById('followup3Title').value;
+    document.getElementById('previewFollowup3Content').textContent = document.getElementById('followup3Content').value;
+    document.getElementById('previewFollowup3Button').textContent = document.getElementById('followup3ButtonText').value;
+    
+    // Option 4
+    document.getElementById('previewOption4Emoji').textContent = document.getElementById('option4Emoji').value;
+    document.getElementById('previewOption4Title').textContent = document.getElementById('option4Title').value;
+    document.getElementById('previewOption4Description').textContent = document.getElementById('option4Description').value;
+    document.getElementById('previewFollowup4Emoji').textContent = document.getElementById('option4Emoji').value;
+    document.getElementById('previewFollowup4Title').textContent = document.getElementById('followup4Title').value;
+    document.getElementById('previewFollowup4Content').textContent = document.getElementById('followup4Content').value;
+    document.getElementById('previewFollowup4Button').textContent = document.getElementById('followup4ButtonText').value;
+}
+
+// Switch between preview views
+function switchPreviewView(view) {
+    console.log("Switching to view:", view);
+    
+    // Hide all views
+    document.getElementById('previewMain').style.display = 'none';
+    document.getElementById('previewFollowup1').style.display = 'none';
+    document.getElementById('previewFollowup2').style.display = 'none';
+    document.getElementById('previewFollowup3').style.display = 'none';
+    document.getElementById('previewFollowup4').style.display = 'none';
+    
+    // Show selected view
+    if (view === 'main') {
+        document.getElementById('previewMain').style.display = 'block';
+    } else if (view === 'followup1') {
+        document.getElementById('previewFollowup1').style.display = 'block';
+    } else if (view === 'followup2') {
+        document.getElementById('previewFollowup2').style.display = 'block';
+    } else if (view === 'followup3') {
+        document.getElementById('previewFollowup3').style.display = 'block';
+    } else if (view === 'followup4') {
+        document.getElementById('previewFollowup4').style.display = 'block';
+    }
+    
+    // Update active tab
+    document.querySelectorAll('.preview-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+        if (tab.dataset.view === view) {
+            tab.classList.add('active');
+        }
+    });
+}
+
+// Generate code function
+function generateCode() {
+    console.log("Generating code...");
+    
+    // Get values from form
+    const popupTitle = document.getElementById('popupTitle').value;
+    
+    // Get donation options
+    const options = [];
+    for (let i = 1; i <= 4; i++) {
+        options.push({
+            emoji: document.getElementById(`option${i}Emoji`).value,
+            title: document.getElementById(`option${i}Title`).value,
+            description: document.getElementById(`option${i}Description`).value,
+            followupTitle: document.getElementById(`followup${i}Title`).value,
+            followupContent: document.getElementById(`followup${i}Content`).value,
+            followupButtonText: document.getElementById(`followup${i}ButtonText`).value
+        });
+    }
+    
+    // Generate HTML
+    const html = `<!-- Donation Widget HTML -->
 <div class="donation-widget">
     <!-- Main Popup -->
     <div class="donation-popup">
@@ -1079,11 +1094,11 @@
         }
     });
 </script>`;
-            
-            // Output code
-            document.getElementById('codeOutput').value = html;
-            console.log("Code generation complete!");
-        }
-    </script>
+    
+    // Output code
+    document.getElementById('codeOutput').value = html;
+    console.log("Code generation complete!");
+}
+</script>
 </body>
 </html>
