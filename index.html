@@ -1,3 +1,201 @@
+<div class="raisely-embed">
+  <div class="embed-header">
+    <h3>Support Our Work</h3>
+    <p>Your donation makes a difference</p>
+  </div>
+  
+  <form class="donation-form">
+    <div class="amount-selector">
+      <div class="amount-options">
+        <button type="button" class="amount-btn active">$5</button>
+        <button type="button" class="amount-btn">$10</button>
+        <button type="button" class="amount-btn">$25</button>
+        <button type="button" class="amount-btn">$50</button>
+      </div>
+      <div class="custom-amount">
+        <label for="custom-amount">Custom amount</label>
+        <input type="number" id="custom-amount" placeholder="Enter amount" min="1" />
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <label for="donor-name">Name</label>
+      <input type="text" id="donor-name" placeholder="Your name" />
+    </div>
+    
+    <div class="form-row">
+      <label for="donor-email">Email</label>
+      <input type="email" id="donor-email" placeholder="Your email" />
+    </div>
+    
+    <div class="payment-options">
+      <label>Payment method</label>
+      <div class="payment-methods">
+        <button type="button" class="payment-method active">
+          <span class="method-icon">💳</span>
+          <span>Credit Card</span>
+        </button>
+        <button type="button" class="payment-method">
+          <span class="method-icon">🏦</span>
+          <span>Bank Transfer</span>
+        </button>
+      </div>
+    </div>
+    
+    <button type="submit" class="donate-btn">Complete Donation</button>
+    
+    <div class="secure-payment">
+      <span class="lock-icon">🔒</span> Secure payment processing
+    </div>
+  </form>
+  
+  <style>
+    .raisely-embed {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 100%;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .embed-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .embed-header h3 {
+      margin: 0 0 5px;
+      color: #333;
+      font-size: 20px;
+    }
+    
+    .embed-header p {
+      margin: 0;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .donation-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .amount-selector {
+      margin-bottom: 10px;
+    }
+    
+    .amount-options {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    
+    .amount-btn {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 8px 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    
+    .amount-btn.active {
+      background: #3b82f6;
+      color: white;
+      border-color: #3b82f6;
+    }
+    
+    .custom-amount {
+      margin-top: 10px;
+    }
+    
+    .custom-amount label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .form-row label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    .payment-options {
+      margin-top: 10px;
+    }
+    
+    .payment-methods {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 5px;
+    }
+    
+    .payment-method {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px;
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .payment-method.active {
+      background: #e6f0ff;
+      border-color: #3b82f6;
+    }
+    
+    .method-icon {
+      font-size: 18px;
+    }
+    
+    .donate-btn {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.2s;
+    }
+    
+    .donate-btn:hover {
+      background: #2563eb;
+    }
+    
+    .secure-payment {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
