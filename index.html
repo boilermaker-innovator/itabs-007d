@@ -909,5 +909,1084 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+  <!-- Donation Widget HTML -->
+<div class="donation-widget">
+    <!-- Main Popup -->
+    <div class="donation-popup">
+        <div class="donation-project">Tiamoyo Project</div>
+        <div class="popup-title">Your $5 makes a difference!</div>
+        
+        <!-- Custom Embed Code -->
+    <div class="custom-embed-container">
+      
+      <div class="custom-embed-content">
+        <div class="raisely-embed">
+  <div class="embed-header">
+    <h3>Support Our Work</h3>
+    <p>Your donation makes a difference</p>
+  </div>
+  
+  <form class="donation-form">
+    <div class="amount-selector">
+      <div class="amount-options">
+        <button type="button" class="amount-btn active">$5</button>
+        <button type="button" class="amount-btn">$10</button>
+        <button type="button" class="amount-btn">$25</button>
+        <button type="button" class="amount-btn">$50</button>
+      </div>
+      <div class="custom-amount">
+        <label for="custom-amount">Custom amount</label>
+        <input type="number" id="custom-amount" placeholder="Enter amount" min="1" />
+      </div>
+    </div>
+    
+    <div class="form-row">
+      <label for="donor-name">Name</label>
+      <input type="text" id="donor-name" placeholder="Your name" />
+    </div>
+    
+    <div class="form-row">
+      <label for="donor-email">Email</label>
+      <input type="email" id="donor-email" placeholder="Your email" />
+    </div>
+    
+    <div class="payment-options">
+      <label>Payment method</label>
+      <div class="payment-methods">
+        <button type="button" class="payment-method active">
+          <span class="method-icon">💳</span>
+          <span>Credit Card</span>
+        </button>
+        <button type="button" class="payment-method">
+          <span class="method-icon">🏦</span>
+          <span>Bank Transfer</span>
+        </button>
+      </div>
+    </div>
+    
+    <button type="submit" class="donate-btn">Complete Donation</button>
+    
+    <div class="secure-payment">
+      <span class="lock-icon">🔒</span> Secure payment processing
+    </div>
+  </form>
+  
+  <style>
+    .raisely-embed {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      max-width: 100%;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .embed-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .embed-header h3 {
+      margin: 0 0 5px;
+      color: #333;
+      font-size: 20px;
+    }
+    
+    .embed-header p {
+      margin: 0;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .donation-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .amount-selector {
+      margin-bottom: 10px;
+    }
+    
+    .amount-options {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    
+    .amount-btn {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 8px 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    
+    .amount-btn.active {
+      background: #3b82f6;
+      color: white;
+      border-color: #3b82f6;
+    }
+    
+    .custom-amount {
+      margin-top: 10px;
+    }
+    
+    .custom-amount label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .form-row label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    .payment-options {
+      margin-top: 10px;
+    }
+    
+    .payment-methods {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 5px;
+    }
+    
+    .payment-method {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px;
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .payment-method.active {
+      background: #e6f0ff;
+      border-color: #3b82f6;
+    }
+    
+    .method-icon {
+      font-size: 18px;
+    }
+    
+    .donate-btn {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.2s;
+    }
+    
+    .donate-btn:hover {
+      background: #2563eb;
+    }
+    
+    .secure-payment {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</div>
+      </div>
+    </div>
+        
+        
+        <div class="donation-option" data-option="1">
+            <div class="donation-emoji">💧</div>
+            <div class="donation-content">
+                <div class="donation-title">Dig the Well</div>
+                <div class="donation-description">$5 funds 1 inch of well drilling</div>
+            </div>
+        </div>
+        
+        <div class="donation-option" data-option="2">
+            <div class="donation-emoji">🚜</div>
+            <div class="donation-content">
+                <div class="donation-title">Fuel the Tractors</div>
+                <div class="donation-description">$5 powers 1 hour of tractor operation</div>
+            </div>
+        </div>
+        
+        <div class="donation-option" data-option="3">
+            <div class="donation-emoji">👨‍🌾</div>
+            <div class="donation-content">
+                <div class="donation-title">Train Farmers</div>
+                <div class="donation-description">$5 contributes to training sessions</div>
+            </div>
+        </div>
+        
+        <div class="donation-option" data-option="4">
+            <div class="donation-emoji">🙏</div>
+            <div class="donation-content">
+                <div class="donation-title">General Support</div>
+                <div class="donation-description">$5 helps our mission in Tanzania</div>
+            </div>
+        </div>
+        
+        
+        <div class="popup-close">Close</div>
+    </div>
+    
+    <!-- Rotating Emoji Button -->
+    <div class="rotating-emoji-button">
+        <span class="emoji-display"></span>
+        <span class="info-badge">i</span>
+    </div>
+    
+    <!-- Follow-up Cards -->
+    
+    <div class="followup-card" id="followup1">
+        <div class="followup-header">
+            <div class="followup-emoji">💧</div>
+            <div class="followup-title">Clean Water Changes Lives</div>
+        </div>
+        <div class="followup-content">We need to dig a well on the Agape farm to provide sustainable water access for irrigation and community use. Water is available 60 feet (720 inches) below ground.</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 35%"></div>
+            </div>
+            <div class="progress-text">Currently at 35% of our $5,000 goal</div>
+        </div>
+        
+        <button class="donate-button" data-option="1">Donate $5 to Dig 1 Inch</button>
+        <div class="back-link">Back to options</div>
+    </div>
+    
+    <div class="followup-card" id="followup2">
+        <div class="followup-header">
+            <div class="followup-emoji">🚜</div>
+            <div class="followup-title">Keep Our Equipment Running</div>
+        </div>
+        <div class="followup-content">Our tractors are crucial for preparing farmland for local families. We recently shipped two tractors to Tanzania that need fuel and maintenance to operate effectively for the community.</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 40%"></div>
+            </div>
+            <div class="progress-text">40% of monthly fuel needs funded</div>
+        </div>
+        
+        <button class="donate-button" data-option="2">Donate $5 for 1 Hour of Operation</button>
+        <div class="back-link">Back to options</div>
+    </div>
+    
+    <div class="followup-card" id="followup3">
+        <div class="followup-header">
+            <div class="followup-emoji">👨‍🌾</div>
+            <div class="followup-title">Teaching Sustainable Agriculture</div>
+        </div>
+        <div class="followup-content">We provide training in conservation agriculture techniques to local farmers, helping them increase crop yields while preserving natural resources for future generations.</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 68%"></div>
+            </div>
+            <div class="progress-text">68 farmers trained so far</div>
+        </div>
+        
+        <button class="donate-button" data-option="3">Donate $5 to Support Training</button>
+        <div class="back-link">Back to options</div>
+    </div>
+    
+    <div class="followup-card" id="followup4">
+        <div class="followup-header">
+            <div class="followup-emoji">🙏</div>
+            <div class="followup-title">Help Where Needed Most</div>
+        </div>
+        <div class="followup-content">Your general support allows us to direct funds to the most urgent needs across all our projects in Tanzania, ensuring we can respond quickly to changing priorities.</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 50%"></div>
+            </div>
+            <div class="progress-text">Supporting communities since 2019</div>
+        </div>
+        
+        <button class="donate-button" data-option="4">Donate $5 for General Support</button>
+        <div class="back-link">Back to options</div>
+    </div>
+    
+
+    <!-- Donation Confirmation Modal -->
+    <div class="donation-modal" id="donation-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Complete Your Donation</h3>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="selected-option-title"></div>
+                <!-- Embed HTML in modal -->
+            </div>
+            <div class="modal-footer">
+                <button class="complete-donation-button">Complete Donation</button>
+                <button class="cancel-donation-button">Cancel</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Thank You Screen -->
+    <div class="thank-you-modal" id="thank-you-modal">
+        <div class="modal-content">
+            <div class="thank-you-content">
+                <div class="thank-you-emoji">🎉</div>
+                <h2>Thank You!</h2>
+                <p>Your donation has been received and will make a real difference.</p>
+                <div class="donated-to"></div>
+                <button class="thank-you-close">Done</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Confetti Container -->
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    
+</div>
+
+<style>
+/* Donation Widget CSS */
+.donation-widget {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+}
+
+/* Rotating Emoji Button */
+.rotating-emoji-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border: 2px solid #9b87f5;
+    transition: all 0.3s ease;
+}
+
+.rotating-emoji-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.emoji-display {
+    font-size: 32px;
+    animation: pulse 2s infinite;
+}
+
+.info-badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    color: #3b82f6;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9b87f5;
+}
+
+/* Support Button */
+.support-button {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4b5563;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.support-button:hover {
+    background: #f9fafb;
+}
+
+.thumbs-up {
+    font-size: 28px;
+    color: #9b87f5;
+    position: relative;
+}
+
+.thumbs-up::after {
+    content: 'i';
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Donation Popup */
+.donation-popup {
+    display: none;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 999;
+}
+
+.donation-project {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.popup-title {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.donation-option {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.donation-option:hover {
+    background: #f0f0f0;
+}
+
+.donation-emoji {
+    font-size: 36px;
+    margin-right: 10px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.donation-content {
+    flex: 1;
+}
+
+.donation-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.donation-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.popup-close {
+    text-align: center;
+    padding: 10px;
+    color: #666;
+    cursor: pointer;
+}
+
+/* Follow-up Cards */
+.followup-card {
+    display: none;
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 999;
+}
+
+.followup-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.followup-emoji {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.followup-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.followup-content {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Progress bar */
+.progress-container {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 16px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: #9b87f5;
+    border-radius: 8px;
+}
+
+.progress-text {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.donate-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #9b87f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.donate-button:hover {
+    background: #7E69AB;
+}
+
+.back-link {
+    text-align: center;
+    padding: 10px;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.back-link::before {
+    content: '←';
+    margin-right: 5px;
+}
+
+/* Donation Modal */
+.donation-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-close {
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+.modal-close:hover {
+    color: #666;
+}
+
+.modal-body {
+    margin-bottom: 20px;
+}
+
+.selected-option-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.complete-donation-button {
+    padding: 10px;
+    background: #9b87f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.complete-donation-button:hover {
+    background: #7E69AB;
+}
+
+.cancel-donation-button {
+    padding: 10px;
+    background: transparent;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cancel-donation-button:hover {
+    background: #f5f5f5;
+}
+
+/* Thank You Modal */
+.thank-you-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.thank-you-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.thank-you-emoji {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.thank-you-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.thank-you-content p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.donated-to {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.thank-you-close {
+    padding: 10px 20px;
+    background: #9b87f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Confetti */
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    background-color: var(--color);
+    opacity: 0.8;
+    animation: fall 4s linear forwards, sway 3s ease-in-out infinite alternate;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sway {
+    0% {
+        transform: translateX(-5px) rotate(5deg);
+    }
+    100% {
+        transform: translateX(5px) rotate(-5deg);
+    }
+}
+
+/* Pulse animation for emoji button */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.donation-popup, .followup-card, .donation-modal, .thank-you-modal {
+    animation: fadeIn 0.3s ease;
+}
+
+@media (min-width: 640px) {
+    .modal-footer {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+</style>
+
+<script>
+/* Donation Widget JavaScript */
+document.addEventListener('DOMContentLoaded', function() {
+    // Select elements
+    const donationWidget = document.querySelector('.donation-widget');
+    const rotatingEmojiButton = document.querySelector('.rotating-emoji-button');
+    const emojiDisplay = document.querySelector('.emoji-display');
+    const supportButton = document.querySelector('.support-button');
+    const donationPopup = document.querySelector('.donation-popup');
+    const donationOptions = document.querySelectorAll('.donation-option');
+    const followupCards = document.querySelectorAll('.followup-card');
+    const backLinks = document.querySelectorAll('.back-link');
+    const popupClose = document.querySelector('.popup-close');
+    const donateButtons = document.querySelectorAll('.donate-button');
+    const donationModal = document.getElementById('donation-modal');
+    const modalClose = document.querySelector('.modal-close');
+    const completeDonationButton = document.querySelector('.complete-donation-button');
+    const cancelDonationButton = document.querySelector('.cancel-donation-button');
+    const selectedOptionTitle = document.querySelector('.selected-option-title');
+    const thankYouModal = document.getElementById('thank-you-modal');
+    const thankYouClose = document.querySelector('.thank-you-close');
+    const donatedTo = document.querySelector('.donated-to');
+    
+    // All emojis from donation options
+    const emojis = Array.from(donationOptions).map(option => 
+        option.querySelector('.donation-emoji').textContent
+    );
+    
+    // Setup rotating emoji display
+    let currentEmojiIndex = 0;
+    emojiDisplay.textContent = emojis[0];
+    
+    // Set up emoji rotation
+    const rotateInterval = setInterval(function() {
+        currentEmojiIndex = (currentEmojiIndex + 1) % emojis.length;
+        emojiDisplay.textContent = emojis[currentEmojiIndex];
+    }, 2000);
+    
+    // Initially show rotation button, hide popup
+    rotatingEmojiButton.style.display = 'flex';
+    donationPopup.style.display = 'none';
+    
+    // Rotating emoji button click
+    rotatingEmojiButton.addEventListener('click', function() {
+        rotatingEmojiButton.style.display = 'none';
+        donationPopup.style.display = 'block';
+    });
+    
+    // Add click handlers to donation options
+    donationOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            const optionNumber = this.dataset.option;
+            showFollowup(optionNumber);
+        });
+    });
+    
+    // Add click handlers to back links
+    backLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            hideAllFollowups();
+            donationPopup.style.display = 'block';
+        });
+    });
+    
+    // Donation buttons
+    donateButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const optionNumber = this.dataset.option;
+            const selectedOption = document.getElementById('followup' + optionNumber);
+            
+            if (selectedOption) {
+                const optionTitle = selectedOption.querySelector('.followup-title').textContent;
+                selectedOptionTitle.textContent = optionTitle;
+                
+                // Campaign mapping for direct redirection
+                  const campaignMapping = {
+                      1: "well",     // Well
+                      2: "tractors", // Tractors
+                      3: "training", // Farmers
+                      4: "general"   // General
+                  };
+                  
+                  // Direct redirection to Raisely
+                  const campaign = campaignMapping[optionNumber] || "general";
+                  const amount = 5; // Default donation amount
+                  
+                  // Construct URL
+                  const raiselyUrl = new URL("https://tiamoyo-gdg-j919n.raisely.com/");
+                  raiselyUrl.searchParams.append("campaign", campaign);
+                  raiselyUrl.searchParams.append("amount", amount.toString());
+                  
+                  // Open in new tab and return
+                  window.open(raiselyUrl.toString(), "_blank");
+                  
+                  // Show thank you screen
+                  showThankYouScreen(optionTitle);
+                  return;
+                
+                // Show the modal if not redirected
+                donationModal.style.display = 'block';
+            }
+        });
+    });
+    
+    // Modal close button
+    if (modalClose) {
+        modalClose.addEventListener('click', function() {
+            donationModal.style.display = 'none';
+        });
+    }
+    
+    // Complete donation button
+    if (completeDonationButton) {
+        completeDonationButton.addEventListener('click', function() {
+            // Simulate processing
+            completeDonationButton.textContent = 'Processing...';
+            completeDonationButton.disabled = true;
+            
+            setTimeout(function() {
+                // Hide donation modal
+                donationModal.style.display = 'none';
+                
+                // Show thank you screen
+                showThankYouScreen(selectedOptionTitle.textContent);
+                
+                // Reset button
+                completeDonationButton.textContent = 'Complete Donation';
+                completeDonationButton.disabled = false;
+            }, 2000);
+        });
+    }
+    
+    // Thank you close button
+    if (thankYouClose) {
+        thankYouClose.addEventListener('click', function() {
+            thankYouModal.style.display = 'none';
+            rotatingEmojiButton.style.display = 'flex';
+        });
+    }
+    
+    // Cancel donation button
+    if (cancelDonationButton) {
+        cancelDonationButton.addEventListener('click', function() {
+            donationModal.style.display = 'none';
+        });
+    }
+    
+    // Close button
+    popupClose.addEventListener('click', function() {
+        donationPopup.style.display = 'none';
+        rotatingEmojiButton.style.display = 'flex';
+    });
+    
+    // Close modal when clicking outside
+    window.addEventListener('click', function(event) {
+        if (event.target === donationModal) {
+            donationModal.style.display = 'none';
+        }
+        if (event.target === thankYouModal) {
+            thankYouModal.style.display = 'none';
+            rotatingEmojiButton.style.display = 'flex';
+        }
+    });
+    
+    // Function to show thank you screen with confetti
+    function showThankYouScreen(optionTitle) {
+        if (donatedTo) {
+            donatedTo.innerHTML = '<span style="font-size: 32px;">' + getEmojiForOption(optionTitle) + '</span> ' + optionTitle;
+        }
+        
+        // Show thank you modal
+        thankYouModal.style.display = 'block';
+        
+        // Create confetti
+        createConfetti();
+    }
+    
+    // Function to get emoji for the option title
+    function getEmojiForOption(title) {
+        const options = Array.from(donationOptions);
+        for (let i = 0; i < options.length; i++) {
+            const optionTitle = options[i].querySelector('.donation-title').textContent;
+            if (optionTitle === title) {
+                return options[i].querySelector('.donation-emoji').textContent;
+            }
+        }
+        return '🎉';
+    }
+    
+    // Create confetti elements
+    function createConfetti() {
+        const confettiContainer = document.getElementById('confetti-container');
+        confettiContainer.innerHTML = '';
+        
+        const colors = ['#9b87f5', '#7E69AB', '#FEC6A1', '#D3E4FD', '#FFDEE2', '#F2FCE2', '#FEF7CD'];
+        
+        // Create 100 confetti pieces
+        for (let i = 0; i < 100; i++) {
+            const confetti = document.createElement('div');
+            confetti.className = 'confetti';
+            
+            // Random position, size, color, rotation
+            const leftPos = Math.random() * 100;
+            const size = 5 + Math.random() * 10;
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            const delay = Math.random() * 3;
+            
+            confetti.style.left = leftPos + '%';
+            confetti.style.width = size + 'px';
+            confetti.style.height = size * 0.6 + 'px';
+            confetti.style.setProperty('--color', color);
+            confetti.style.animationDelay = delay + 's';
+            
+            confettiContainer.appendChild(confetti);
+        }
+        
+        // Remove confetti after animation
+        setTimeout(function() {
+            confettiContainer.innerHTML = '';
+        }, 7000);
+    }
+    
+    // Helper functions
+    function showFollowup(number) {
+        hideAllFollowups();
+        donationPopup.style.display = 'none';
+        document.getElementById('followup' + number).style.display = 'block';
+    }
+    
+    function hideAllFollowups() {
+        followupCards.forEach(card => {
+            card.style.display = 'none';
+        });
+    }
+    
+    
+});
+</script>
 </body>
 </html>
